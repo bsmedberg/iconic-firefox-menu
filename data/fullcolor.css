@@ -1,0 +1,4 @@
+toolbarbutton#PanelUI-menu-button.toolbarbutton-1 {
+  list-style-image: url("chrome://branding/content/icon16.png") !important;
+  -moz-image-region: rect(0px, 16px, 16px, 0px) !important;
+}

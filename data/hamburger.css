@@ -1,0 +1,4 @@
+toolbarbutton#PanelUI-menu-button.toolbarbutton-1 {
+  list-style-image: url("hamburger-icon.png") !important;
+  -moz-image-region: rect(0px, 16px, 16px, 0px) !important;
+}

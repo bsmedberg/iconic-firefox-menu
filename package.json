@@ -1,0 +1,25 @@
+{
+  "name": "iconic-firefox-menu",
+  "fullName": "Iconic Firefox Menu",
+  "id": "firefox-menu-icon@benjamin.smedbergs.us",
+  "license": "Apache 2.0",
+  "author": "Benjamin Smedberg <benjamin@smedbergs.us>",
+  "version": "2.0a1",
+  "description": "Makes your Firefox menu icon colorful.",
+  "preferences": [
+    {
+      "name": "icontype",
+      "title": "Menu Icon",
+      "type": "menulist",
+      "value": "outline",
+      "options": [
+        { "value": "outline", "label": "Outline (Default)" },
+        { "value": "fullcolor", "label": "Color logo" },
+        { "value": "hamburger", "label": "Hamburger" }
+      ]
+    }
+  ],
+  "permissions": {
+    "private-browsing": true
+  }
+}
